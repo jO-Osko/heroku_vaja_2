@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block head %}
+    <link rel="stylesheet" href="../static/css/style_3.css">
+    {% endblock %}
+    <img src="../static/img/slika.png">
+
+</head>
+<body>
+    {% block header %}
+    <h1>Hello world</h1>
+    {% endblock header %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eligendi nihil rerum
+        sapiente vero. Accusamus magnam reprehenderit sapiente unde vero? Autem consequatur dolores
+        exercitationem harum quas quis recusandae rem temporibus?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Accusamus aspernatur beatae, cumque dignissimos eaque eligendi iusto minima molestiae nihil officiis quam quis
+        tenetur unde! Fuga hic itaque nobis possimus vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Asperiores culpa dicta enim exercitationem id iste, iure labore, libero molestiae nemo, placeat porro praesentium
+        quasi tempora voluptate. Ab minima veritatis vitae!</p>
+    {% block seznam %}
+    <li>vsebina</li>
+    <li>vsebina1</li>
+    <li>vsebina2</li>
+    <li>vsebina3</li>
+    <li>vsebina4</li>
+    {% endblock %}
+</body>
+</html>
